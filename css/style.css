@@ -11,11 +11,11 @@
 }
 
 :root{
-    --bg-color:#1f242d;
-     --second-bg-color:#323946;
-     --main-color:#7cf03d;
-     --white-color:#fff;
-     --disable-color:#fff3;
+    --bg-color:#0a192f;
+     --second-bg-color:#112240;
+     --main-color:#64ffda;
+     --white-color:#e6f1ff;
+     --disable-color:#e6f1ff33;
 }
 
 html{
@@ -162,15 +162,14 @@ section.active{
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .07rem var(--main-color);
-    animation: display-text 16s linear infinite;
+    animation: display-text 12s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
 
 
 @keyframes display-text {
 
-    25%,
-    100%{
+    25%, 100%{
         display: none;
     }
     
@@ -187,13 +186,11 @@ section.active{
 }
 
 @keyframes fill-text {
-    10%,
-    100%{
+    10%, 100% {
         width: 0;
     }
 
-    70%,
-    90%{
+    70%, 90%{
         width: 100%;
     }
     
