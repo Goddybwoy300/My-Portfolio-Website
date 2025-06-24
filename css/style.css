@@ -10,12 +10,12 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root{
-    --bg-color:#0a192f;
-     --second-bg-color:#112240;
-     --main-color:#64ffda;
-     --white-color:#e6f1ff;
-     --disable-color:#e6f1ff33;
+:root {
+  --bg-color: #2e1f1f;              /* deep warm brownish background */
+  --second-bg-color: #3b2929;       /* slightly lighter for section contrast */
+  --main-color: #f4a261;            /* warm soft orange (sunset tone) */
+  --white-color: #fdf6f0;           /* creamy white, gentle on eyes */
+  --disable-color: #fdf6f066;       /* translucent warm white */
 }
 
 html{
